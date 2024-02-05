@@ -13,6 +13,9 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+plugins:
+  - search
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -20,6 +23,11 @@ extra_javascript:
   - javascripts/katex.js 
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'
+  - 'assets/js/busuanzi.pure.mini.js'
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
@@ -32,24 +40,32 @@ nav:
     - 在这里不能做什么: home\Don't.md
     - 关于: home\information.md
   - 名单:
-    - 2021级及之前: member\past.md
+    - 部分学长: member\emm.md
+    - 2019级及之前: member\past.md
+    - 2020级: member\2020.md
+    - 2021级: member\2021.md
     - 2022级: member\2022.md
     - 2023级: member\2023.md
   - 历史:
-    - 2021及之前: history\past.md
-    - 2022级: history\2022.md
-    - 2023级: history\2023.md
+    - 2021年及之前: history\past.md
+    - 2022年: history\2022.md
+    - 2023年: history\2023.md
   - 赛绩:
     - 以前: achievements\past.md
     - CSP2023: achievements\CSP2023.md
     - NOIP2023: achievements\NOIP2023.md
-  - 项目:
-    - 介绍: project\introduction.md
-    - 双人对战: project\No.2.md
-    - 关机装置: project\No.1.md
+  - 友链:
+    - 竞赛资料: link\information.md
+    - Something about Luogu...: link\Luogu.md
+    - 学习材料: link\material.md
+    - Online Judge: link\OJ.md
+    - 工具: link\tools.md
+    - 游记合集: link\travel.md
+  - 动态: dynamic.md
   - 新闻: news.md
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -59,4 +75,27 @@ theme:
     - navigation.path
     - navigation.top
   palette:
-    primary: white
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference

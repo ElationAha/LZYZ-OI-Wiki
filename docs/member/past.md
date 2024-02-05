@@ -1,3 +1,25 @@
+---
+comments: true
+---
+
+<script languange="JavaScript">
+        var password=""
+        password=prompt('本页面涉及个人隐私，请输入密码','');
+        function custom_close()
+        {
+            window.opener=null;
+            window.open('','_self');
+            window.close();        
+        }   
+        if  (password !='azjs-djh')
+            {alert("密码错误")
+            
+            custom_close();            
+            alert("即将返回上一页")
+            window.location.href='https://elationaha.github.io/LZYZ-OI-Wiki/member/emm';
+            }
+  </script>
+
 ## 2021级及之前
 
 ???+ warning "咕咕咕"

@@ -61,6 +61,7 @@ nav:
     - Online Judge: link\OJ.md
     - 工具: link\tools.md
     - 游记合集: link\travel.md
+  - 动态: dynamic.md
   - 新闻: news.md
 theme:
   name: material
