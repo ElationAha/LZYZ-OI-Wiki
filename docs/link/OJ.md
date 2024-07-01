@@ -12,7 +12,7 @@ comments: true
 
 * [波兰 Sphere Online Judge (SPOJ)](https://www.spoj.com)
 
-* [日本 AtCoder](http://noi.openjudge.cn/)
+* [日本 AtCoder](https://atcoder.jp/)
 
 * [西班牙 University of Valladolid (UVa)](https://onlinejudge.org/)
 
