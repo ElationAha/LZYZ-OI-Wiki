@@ -35,34 +35,34 @@ extra_css:
 # Contents
 nav:
   - 简介:
-    - Getting Started: index.html
-    - 在这里可以做什么: home\What.html
-    - 在这里不能做什么: home\Don't.html
-    - 关于: home\information.html
+    - Getting Started: index.md
+    - 在这里可以做什么: home\What.md
+    - 在这里不能做什么: home\Don't.md
+    - 关于: home\information.md
   - 名单:
-    - 部分学长: member\emm.html
-    - 2019级及之前: member\past.html
-    - 2020级: member\2020.html
-    - 2021级: member\2021.html
-    - 2022级: member\2022.html
-    - 2023级: member\2023.html
+    - 部分学长: member\emm.md
+    - 2019级及之前: member\past.md
+    - 2020级: member\2020.md
+    - 2021级: member\2021.md
+    - 2022级: member\2022.md
+    - 2023级: member\2023.md
   - 历史:
-    - 2021年及之前: history\past.html
-    - 2022年: history\2022.html
-    - 2023年: history\2023.html
+    - 2021年及之前: history\past.md
+    - 2022年: history\2022.md
+    - 2023年: history\2023.md
   - 赛绩:
-    - 以前: achievements\past.html
-    - CSP2023: achievements\CSP2023.html
-    - NOIP2023: achievements\NOIP2023.html
+    - 以前: achievements\past.md
+    - CSP2023: achievements\CSP2023.md
+    - NOIP2023: achievements\NOIP2023.md
   - 友链:
-    - 竞赛资料: link\information.html
-    - Something about Luogu...: link\Luogu.html
-    - 学习材料: link\material.html
-    - Online Judge: link\OJ.html
-    - 工具: link\tools.html
-    - 游记合集: link\travel.html
-  - 动态: dynamic.html
-  - 新闻: news.html
+    - 竞赛资料: link\information.md
+    - Something about Luogu...: link\Luogu.md
+    - 学习材料: link\material.md
+    - Online Judge: link\OJ.md
+    - 工具: link\tools.md
+    - 游记合集: link\travel.md
+  - 动态: dynamic.md
+  - 新闻: news.md
 theme:
   name: material
   custom_dir: overrides
