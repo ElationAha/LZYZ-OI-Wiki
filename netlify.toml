@@ -1,4 +1,6 @@
-# netlify.toml
 [build]
-  command = "pip install mkdocs-material && mkdocs build"
-  publish = "site"
+  base = "scripts/" # Trick to disable dependencies installation
+  command = "cd .. && scripts/netlify/build.sh"
+
+[build.environment]
+  NODE_VERSION = "20"
