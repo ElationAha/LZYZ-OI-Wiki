@@ -1,5 +1,4 @@
 site_name: LZYZ OI Wiki
-
 markdown_extensions:
   - toc:
       title: 目录
@@ -12,10 +11,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
 plugins:
   - search
-
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -28,41 +25,39 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'
   - 'assets/js/busuanzi.pure.mini.js'
-
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
-
 # Contents
 nav:
   - 简介:
     - Getting Started: index.md
-    - 在这里可以做什么: home\What\index.html
-    - 在这里不能做什么: home\Don't\index.html
-    - 关于: home\information\index.html
+    - 在这里可以做什么: home\What.md
+    - 在这里不能做什么: home\Don't.md
+    - 关于: home\information.md
   - 名单:
-    - 部分学长: member\emm\index.html
-    - 2019级及之前: member\past\index.html
-    - 2020级: member\2020\index.html
-    - 2021级: member\2021\index.html
-    - 2022级: member\2022\index.html
-    - 2023级: member\2023\index.html
+    - 部分学长: member\emm.md
+    - 2019级及之前: member\past.md
+    - 2020级: member\2020.md
+    - 2021级: member\2021.md
+    - 2022级: member\2022.md
+    - 2023级: member\2023.md
   - 历史:
-    - 2021年及之前: history\past\index.html
-    - 2022年: history\2022\index.html
-    - 2023年: history\2023\index.html
+    - 2021年及之前: history\past.md
+    - 2022年: history\2022.md
+    - 2023年: history\2023.md
   - 赛绩:
-    - 以前: achievements\past\index.html
-    - CSP2023: achievements\CSP2023\index.html
-    - NOIP2023: achievements\NOIP2023\index.html
+    - 以前: achievements\past.md
+    - CSP2023: achievements\CSP2023.md
+    - NOIP2023: achievements\NOIP2023.md
   - 友链:
-    - 竞赛资料: link\information\index.html
-    - Something about Luogu...: link\Luogu\index.html
-    - 学习材料: link\material\index.html
-    - Online Judge: link\OJ\index.html
-    - 工具: link\tools\index.html
-    - 游记合集: link\travel\index.html
-  - 动态: dynamic\index.html
-  - 新闻: news\index.html
+    - 竞赛资料: link\information.md
+    - Something about Luogu...: link\Luogu.md
+    - 学习材料: link\material.md
+    - Online Judge: link\OJ.md
+    - 工具: link\tools.md
+    - 游记合集: link\travel.md
+  - 动态: dynamic.md
+  - 新闻: news.md
 theme:
   name: material
   custom_dir: overrides
@@ -75,13 +70,11 @@ theme:
     - navigation.path
     - navigation.top
   palette:
-
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -90,7 +83,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
